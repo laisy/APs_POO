@@ -1,0 +1,3 @@
+Questão 2) Qual é o tipo de associação entre as classes Lampada e Contador, de acordo com a UML: agregação ou composição?
+
+A relação entre as classes é de composição, pois como usamos a Classe Contador apenas para contar a quantidade de vezes em que a lâmpada foi acesa, não tem sentido a classe contador existir sem a classe Lampada. Então a Classe Contador está contida na Classe Lampada, e se o objeto Lampada deixar de existir, o contador dessa lampada também deve deixar de existir. 
